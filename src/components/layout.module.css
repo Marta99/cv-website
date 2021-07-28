@@ -1,0 +1,23 @@
+.container {
+    margin: auto;
+    max-width: 800px;
+    font-family: sans-serif;
+}
+
+.heading {
+    color: grey;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: 100%;
+}
+
+.nav-link-item {
+    padding-right: 2rem;
+}
+
+.nav-link-text {
+    color: black;
+}

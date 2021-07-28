@@ -1,6 +1,24 @@
 import * as React from "react"
+import { Link } from 'gatsby'
+import Layout from '../components/layout'
+import Presentation from '../components/presentation'
+import ContactButton from '../components/contact-button'
+import Personal from '../components/personal-info'
+import About from '../components/professional-info'
 
-// styles
+const IndexPage = () => {
+  return (
+    <Layout sectionTitle="">
+      <Presentation />
+      <Personal />
+      <About />
+      <ContactButton />
+    </Layout>
+  )
+}
+
+
+/*// styles
 const pageStyles = {
   color: "#232129",
   padding: 96,
@@ -179,6 +197,6 @@ const IndexPage = () => {
       />
     </main>
   )
-}
+}*/
 
 export default IndexPage
