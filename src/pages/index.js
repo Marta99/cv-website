@@ -4,14 +4,16 @@ import Layout from '../components/layout'
 import Presentation from '../components/presentation'
 import ContactButton from '../components/contact-button'
 import Personal from '../components/personal-info'
-import About from '../components/professional-info'
+import Professional from '../components/professional-info'
+import Skills from '../components/skills-info'
 
 const IndexPage = () => {
   return (
     <Layout sectionTitle="">
       <Presentation />
       <Personal />
-      <About />
+      <Professional />
+      <Skills />
       <ContactButton />
     </Layout>
   )

@@ -1,25 +1,26 @@
 import * as React from 'react'
 import { Grid, Typography } from '@material-ui/core'
 import { container } from './layout.module.css'
-import { title1, description } from './professional-info.module.css'
+import { title, description } from './other-info.module.css'
 
 const style = {
     title: {
-      fontWeight: 'bold',
-      paddingLeft: '15px'
+      paddingLeft: '15px',
+      paddingBottom: '15px'
     }
 }
 
-const ProfessionalInfoLayout = ({place, period, children}) => {
+
+const OtherInfoLayout = ({place, children}) => {
     return (
         <Grid>
             <Grid item xs={50}>
                 <Typography style={style.title}>
-                    {place}   -   {period}
+                    {place}
                 </Typography>
             </Grid>
             <Grid item xs={50}>
-                <Typography className={description}>
+                <Typography>
                     {children}
                 </Typography>
             </Grid>
@@ -27,4 +28,4 @@ const ProfessionalInfoLayout = ({place, period, children}) => {
     )
 }
 
-export default ProfessionalInfoLayout
+export default OtherInfoLayout

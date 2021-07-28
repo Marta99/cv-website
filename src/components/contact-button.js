@@ -24,7 +24,7 @@ const ButtonStyle = {
         justifyContent: 'center',
         alignItems: 'center',
         marginLeft: '175%',
-        marginTop: '50px'
+        marginTop: '50px',
     }
 }
 

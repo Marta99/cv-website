@@ -6,6 +6,7 @@ import { title, description } from './personal-info.module.css'
 const style = {
     title: {
       fontWeight: 'bold',
+      paddingLeft: '15px'
     }
   }
 
