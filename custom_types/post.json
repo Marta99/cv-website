@@ -1,0 +1,12 @@
+{
+    "Main" : {
+      "author-name" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "heading2",
+          "label" : "author-name",
+          "placeholder" : "Name of the cv author"
+        }
+      }
+    }
+  }

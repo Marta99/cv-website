@@ -13,5 +13,14 @@ module.exports = {
         icon: 'src/images/foto.jpg'
       },
     },
+    {
+      resolve: 'gatsby-source-prismic',
+      options: {
+        repositoryName: 'marta-cv-website',
+        schemas: {
+          post: require('./custom_types/post.json'),
+        },
+      },
+    },
   ],
 };
