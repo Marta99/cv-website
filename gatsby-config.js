@@ -3,5 +3,15 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "My first CV website",
   },
-  plugins: ["gatsby-plugin-gatsby-cloud", "gatsby-remark-line-breaks"],
+  plugins: [
+    "gatsby-plugin-gatsby-cloud", 
+    "gatsby-remark-line-breaks",
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: 'src/images/foto.jpg'
+      },
+    },
+  ],
 };

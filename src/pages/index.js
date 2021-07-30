@@ -9,7 +9,7 @@ import Skills from '../components/skills-info'
 
 const IndexPage = () => {
   return (
-    <Layout sectionTitle="">
+    <Layout sectionTitle="Home Page">
       <Presentation />
       <Personal />
       <Professional />
