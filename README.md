@@ -9,7 +9,7 @@
 
 ## Introduction
   The next steps are the ones you need to follow if you want to download and run the project locally.
-  
+
   Also make sure you have Node.js and Gatsby CLI installed in your machine.
 
   ```shell
@@ -31,6 +31,6 @@
 ## Technologies used
   - [Gatsby](https://www.gatsbyjs.com/)
 
-    - [Prismic](https://prismic.io/)
+  - [Prismic](https://prismic.io/)
 
-    - [Netlify](https://www.netlify.com/)
+  - [Netlify](https://www.netlify.com/)
