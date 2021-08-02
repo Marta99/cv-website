@@ -1,54 +1,34 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby minimal starter
+  CV using Gatsby, Prismic and Netlify
 </h1>
 
-## 🚀 Quick start
+## The site
+  You can see the live site [here](https://tender-bose-c85007.netlify.app/).
+  Also yu can run it at http://localhost:8000!
 
-1.  **Create a Gatsby site.**
+## Introduction
+  The next steps are the ones you need to follow if you want to download and run the project locally.
+  Also make sure you have Node.js and Gatsby CLI installed in your machine.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+  ```shell
+  # This command will install Gatsby CLI and also update it to the latest version
+  npm install -g gatsby-cli
+  ```
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## Install
+  First you need to install all the project dependencies using the the following command:
+  ```shell
+  npm install 
+  ```
 
-2.  **Start developing.**
+  Finally, in order to run locally the website, you can do it with the command:
+  ```shell
+  gatsby develop
+  ```
 
-    Navigate into your new site’s directory and start it up.
+## Technologies used
+  - [Gatsby](https://www.gatsbyjs.com/)
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+    - [Prismic](https://prismic.io/)
 
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+    - [Netlify](https://www.netlify.com/)

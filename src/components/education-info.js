@@ -1,10 +1,6 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import Layout from './components/layout'
-//import SEO from '../components/SEO'
 
-import { Typography, Grid, Box } from '@material-ui/core'
-import { title1, description } from './professional-info.module.css'
+import { Typography, Grid } from '@material-ui/core'
 import ProfessionalInfoLayout from './professional-info-layout'
 
 const style = {

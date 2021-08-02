@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { Button, ButtonGroup, Grid } from '@material-ui/core'
-import { navLinks, navLinkItem } from './layout.module.css'
+import { navLinks} from './layout.module.css'
 
 const Header = () => {
   //const homepageClass = isHomepage ? 'homepage-header' : ''

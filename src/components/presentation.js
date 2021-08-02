@@ -1,6 +1,5 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
-import { Button, Grid, Typography } from '@material-ui/core'
+import { Grid, Typography } from '@material-ui/core'
 import { container } from './layout.module.css'
 import { 
     name,

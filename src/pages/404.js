@@ -1,8 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { Button, Grid, Typography, withStyles } from '@material-ui/core'
 
-// styles
 const pageStyles = {
   color: "#232129",
   padding: "96px",
@@ -23,7 +21,6 @@ const paragraphStyles = {
 }
 
 
-// markup
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
@@ -42,15 +39,3 @@ const NotFoundPage = () => {
 }
 
 export default NotFoundPage
-
-/*
-<br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        */

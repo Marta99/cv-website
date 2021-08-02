@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { Grid, Typography } from '@material-ui/core'
-import { container } from './layout.module.css'
-import { title1, description } from './professional-info.module.css'
+import { description } from './professional-info.module.css'
 
 const style = {
     title: {

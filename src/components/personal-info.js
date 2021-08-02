@@ -1,12 +1,8 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import Layout from './layout'
-//import SEO from '../components/SEO'
 
-import { Typography, Grid, Box } from '@material-ui/core'
+import { Typography, Grid } from '@material-ui/core'
 import PersonalInfoLayout from './personal-info-layout'
-import { title, description } from './personal-info.module.css'
-import { container} from './layout.module.css'
+import { title } from './personal-info.module.css'
 
 
 const Personal = () => {
