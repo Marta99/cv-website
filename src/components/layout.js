@@ -19,6 +19,7 @@ const Layout = ({sectionTitle, children}) => {
                     <li className={navLinkItem}><Link to="/contact-form" className={navLinkText}>Names</Link></li>
                 </Header>
             </nav>
+            <h2>{sectionTitle}</h2>
             {children}
         </main>
     )
