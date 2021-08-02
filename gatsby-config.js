@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-prismic',
       options: {
-        repositoryName: 'marta-cv-website',
+        repositoryName: 'marta-cv-webiste',
         schemas: {
           post: require('./custom_types/post.json'),
         },
