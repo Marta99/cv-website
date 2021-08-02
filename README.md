@@ -4,10 +4,12 @@
 
 ## The site
   You can see the live site [here](https://tender-bose-c85007.netlify.app/).
-  Also yu can run it at http://localhost:8000!
+
+  Also you can run it at http://localhost:8000!
 
 ## Introduction
   The next steps are the ones you need to follow if you want to download and run the project locally.
+  
   Also make sure you have Node.js and Gatsby CLI installed in your machine.
 
   ```shell
